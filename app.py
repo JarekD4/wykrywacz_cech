@@ -5,7 +5,7 @@ from pycaret.regression import setup as setup_reg, create_model as create_model_
 from dotenv import dotenv_values
 from openai import OpenAI
 import base64
-from qdrant_client import QdrantClient
+
 
 
 env = dotenv_values(".env")
